@@ -9,58 +9,94 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
-    slug: "chatgpt-vs-claude-2026",
-    title: "ChatGPT vs Claude in 2026: Which AI Assistant Is Right for You?",
+    slug: "best-ai-writing-tools-2026",
+    title: "2026年最佳AI写作工具排行榜：专业评测与选择指南",
     excerpt:
-      "A detailed comparison of the two leading AI chatbots. We compare writing quality, coding ability, pricing, and real-world use cases to help you decide.",
-    date: "2026-06-25",
-    category: "Comparison",
+      "ChatGPT、Claude、Jasper、Notion AI、Perplexity五大AI写作工具深度对比，帮你选择最适合自己需求的工具。",
+    date: "2026-06-29",
+    category: "评测",
     readTime: "8 min read",
   },
   {
-    slug: "best-ai-image-generators",
-    title: "Top 5 AI Image Generators in 2026: Midjourney vs DALL-E vs Stable Diffusion",
+    slug: "ai-image-generators-comparison",
+    title: "AI图像生成器对比：Midjourney vs DALL-E vs Stable Diffusion 2026",
     excerpt:
-      "Which AI image generator produces the best results? We tested Midjourney V6, DALL-E 3, and Stable Diffusion SDXL across 50 prompts to find out.",
-    date: "2026-06-20",
-    category: "Comparison",
+      "Midjourney v7、DALL-E 4、Stable Diffusion 3、Adobe Firefly 3四大图像生成器全面评测，艺术创作、商业应用、定制化需求全覆盖。",
+    date: "2026-06-29",
+    category: "对比",
     readTime: "10 min read",
   },
   {
-    slug: "ai-coding-tools-guide",
-    title: "The Ultimate Guide to AI Coding Assistants: Copilot vs Cursor vs Claude Code",
+    slug: "best-ai-coding-tools-2026",
+    title: "2026年最佳AI编程助手：GitHub Copilot vs Cursor vs Claude Code",
     excerpt:
-      "AI coding tools are transforming software development. Learn which AI pair programmer fits your workflow—from VS Code integration to autonomous agents.",
-    date: "2026-06-18",
-    category: "Guide",
-    readTime: "12 min read",
-  },
-  {
-    slug: "ai-video-generation-tools",
-    title: "AI Video Generation in 2026: Runway vs Pika vs Sora - Full Comparison",
-    excerpt:
-      "Text-to-video AI has come a long way. We break down the leading platforms, their strengths, pricing, and which one delivers the best results for creators.",
-    date: "2026-06-15",
-    category: "Review",
-    readTime: "9 min read",
-  },
-  {
-    slug: "how-to-choose-ai-writing-tool",
-    title: "How to Choose the Right AI Writing Tool for Your Needs",
-    excerpt:
-      "With dozens of AI writing tools available, picking the right one can be overwhelming. This guide walks you through the key factors to consider.",
-    date: "2026-06-12",
-    category: "Guide",
+      "AI编程助手已经从简单的代码补全进化到全栈开发协作伙伴。本文深度评测三大顶级AI编程工具。",
+    date: "2026-06-29",
+    category: "编程",
     readTime: "7 min read",
   },
   {
-    slug: "ai-tools-small-business",
-    title: "10 AI Tools Every Small Business Should Use in 2026",
+    slug: "ai-video-tools-guide-2026",
+    title: "AI视频生成工具完全指南：Runway、Pika、Sora 2026横评",
     excerpt:
-      "From marketing automation to customer support, these 10 AI tools can help small businesses save time, reduce costs, and compete with larger companies.",
-    date: "2026-06-10",
-    category: "Listicle",
+      "AI视频生成技术已经成熟到可以用于商业制作。从文字生成视频、图像转视频到视频编辑和特效，AI正在彻底改变视频创作的方式。",
+    date: "2026-06-29",
+    category: "视频",
+    readTime: "9 min read",
+  },
+  {
+    slug: "ai-audio-tools-review-2026",
+    title: "AI音频工具推荐：Suno、ElevenLabs和AIVA音乐创作对比",
+    excerpt:
+      "AI音频技术已经覆盖了从音乐生成、语音合成到音效制作的完整链条。无论你是音乐人、播客主播还是视频创作者，AI音频工具都能让你以极低成本获得专业级音频内容。",
+    date: "2026-06-29",
+    category: "音频",
     readTime: "6 min read",
+  },
+  {
+    slug: "build-website-with-ai-2026",
+    title: "初学者指南：如何用AI工具从零开始建网站（2026版）",
+    excerpt:
+      "即使完全没有编程经验，2026年的AI工具也能让你在一天之内建立起一个功能完整的网站。本文将介绍如何利用AI工具从零开始完成域名注册、网站设计和内容生成。",
+    date: "2026-06-29",
+    category: "教程",
+    readTime: "12 min read",
+  },
+  {
+    slug: "chatgpt-vs-claude-vs-gemini-2026",
+    title: "ChatGPT vs Claude vs Gemini：2026年三大AI聊天机器人终极对决",
+    excerpt:
+      "OpenAI、Anthropic和Google三大巨头的AI聊天机器人各有特色，本文将为你详细对比。",
+    date: "2026-06-29",
+    category: "对比",
+    readTime: "8 min read",
+  },
+  {
+    slug: "ai-marketing-tools-2026",
+    title: "AI营销工具推荐：Jasper、Copy.ai和AISEO 2026年度评测",
+    excerpt:
+      "营销团队现在可以用AI工具批量产出高质量内容、优化SEO策略、生成个性化营销邮件。本文评测三款最受欢迎的AI营销工具。",
+    date: "2026-06-29",
+    category: "营销",
+    readTime: "5 min read",
+  },
+  {
+    slug: "ai-productivity-tools-2026",
+    title: "AI如何改变办公效率：Notion AI、微软Copilot和Google Workspace AI对比",
+    excerpt:
+      "2026年，三大办公生态平台都已深度集成AI功能。本文将帮助你根据自己的工作场景选择最合适的AI办公工具。",
+    date: "2026-06-29",
+    category: "生产力",
+    readTime: "6 min read",
+  },
+  {
+    slug: "ai-tools-pricing-guide-2026",
+    title: "2026年AI工具定价终极指南：从免费到企业级，你该花多少钱？",
+    excerpt:
+      "越来越多的AI工具采用订阅制收费，如何合理分配预算、选择性价比最高的工具组合，成为AI用户最关心的问题。本文梳理2026年主流AI工具的定价体系。",
+    date: "2026-06-29",
+    category: "指南",
+    readTime: "9 min read",
   },
 ];
 
