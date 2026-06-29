@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect } from "react";
+
 type AdBannerProps = {
   type?: "banner" | "rectangle" | "sidebar" | "leaderboard";
 };
@@ -12,6 +14,14 @@ export default function AdBanner({ type = "banner" }: AdBannerProps) {
     leaderboard: "w-full h-24",
   };
 
+  useEffect(() => {
+    try {
+      ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+    } catch (e) {
+      // AdSense not loaded yet
+    }
+  }, []);
+
   return (
     <div className={`my-8 ${dimensions[type]} bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl flex flex-col items-center justify-center text-gray-400`}>
       <ins
@@ -22,9 +32,6 @@ export default function AdBanner({ type = "banner" }: AdBannerProps) {
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-      <script dangerouslySetInnerHTML={{
-        __html: "(adsbygoogle = window.adsbygoogle || []).push({});"
-      }} />
     </div>
   );
 }
