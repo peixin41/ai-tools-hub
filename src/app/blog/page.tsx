@@ -98,6 +98,69 @@ const blogPosts = [
     category: "指南",
     readTime: "9 min read",
   },
+  {
+    slug: "ai-seo-tools-2026",
+    title: "2026年AI驱动的SEO优化工具推荐：让搜索引擎主动找你",
+    excerpt:
+      "Surfer SEO、Frase、NeuronWriter、MarketMuse四款AI SEO工具深度评测，从关键词研究到内容优化全覆盖。",
+    date: "2026-06-29",
+    category: "营销",
+    readTime: "7 min read",
+  },
+  {
+    slug: "ai-customer-service-tools-2026",
+    title: "AI客服工具对比：Zendesk AI、Intercom Fin和Freshdesk Freddy",
+    excerpt:
+      "超过60%的企业客服咨询已由AI自动处理。本文对比三大主流AI客服平台，帮你选择适合自己企业的方案。",
+    date: "2026-06-29",
+    category: "聊天机器人",
+    readTime: "6 min read",
+  },
+  {
+    slug: "free-vs-paid-ai-tools-2026",
+    title: "免费AI工具 vs 付费AI工具：2026年你该花多少钱？",
+    excerpt:
+      "ChatGPT、Claude、Gemini、Perplexity免费版实测对比，分析什么时候该付费，以及最省钱的AI工具组合方案。",
+    date: "2026-06-29",
+    category: "指南",
+    readTime: "8 min read",
+  },
+  {
+    slug: "ai-trends-2026-h2",
+    title: "2026年下半年AI行业五大趋势预测",
+    excerpt:
+      "AI Agent成熟、多模态AI普及、芯片竞争白热化、安全监管加强、垂直行业融合，了解下半年最值得关注的AI趋势。",
+    date: "2026-06-29",
+    category: "行业动态",
+    readTime: "10 min read",
+  },
+  {
+    slug: "ai-data-analysis-tools-2026",
+    title: "AI数据分析工具推荐：Julius、Rows AI和ChatCSV让Excel下岗",
+    excerpt:
+      "无需精通SQL和Python，用自然语言完成复杂数据分析。Julius AI、Rows AI、ChatCSV、Akkio四大工具深度对比。",
+    date: "2026-06-29",
+    category: "数据",
+    readTime: "6 min read",
+  },
+  {
+    slug: "ai-ecommerce-tools-2026",
+    title: "AI电商工具合集：Vue.ai、Syte和Dynamic Yield帮你日销过万",
+    excerpt:
+      "从商品上架、视觉设计到个性化推荐和智能客服，AI正在重塑电商每一个环节。本文推荐最实用的AI电商工具组合。",
+    date: "2026-06-29",
+    category: "电商",
+    readTime: "7 min read",
+  },
+  {
+    slug: "make-money-with-ai-2026",
+    title: "用AI工具赚钱的8种方法：「2026年真实可行」",
+    excerpt:
+      "从AI内容创作到电商开店，从自由职业到应用开发，8种经过验证的AI赚钱方法详解，含启动成本和收入预估。",
+    date: "2026-06-29",
+    category: "指南",
+    readTime: "12 min read",
+  },
 ];
 
 export default function BlogPage() {
